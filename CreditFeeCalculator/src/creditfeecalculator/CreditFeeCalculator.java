@@ -11,11 +11,15 @@ package creditfeecalculator; /* Un paquete es una forma de agrupar un conjunto
  *
  * @author Alipser
  */
+import java.text.DecimalFormat;
+import java.util.Scanner;
+
 public class CreditFeeCalculator {
 
     
     public static void main(String[] args) {
-        // TODO code application logic here
+        new GUI().setVisible(true);
+        
     }
     
 }
